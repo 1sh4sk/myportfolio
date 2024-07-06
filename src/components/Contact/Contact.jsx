@@ -25,7 +25,7 @@ function Contact() {
                 (result) => {
                     console.log(result.text);
                     console.log("message sent");
-                    toast("message submitted successfully");
+                    toast.success("message submitted successfully");
                 },
                 (error) => {
                     console.log(error.text);
@@ -72,19 +72,19 @@ function Contact() {
 
                         <div className="form-input-row">
                             <div className="form-input">
-                                <label htmlFor="name">Name:</label>
-                                <input id="name" type="text" placeholder="Enter your name" name="name" />
+                                <label htmlFor="name">Name:*</label>
+                                <input id="name" type="text" placeholder="Enter your name" name="name" required />
                             </div>
 
                             <div className="form-input">
-                                <label htmlFor="email">Email address:</label>
-                                <input id="email" type="email" placeholder="Enter your email" name="email" />
+                                <label htmlFor="email">Email address:*</label>
+                                <input id="email" type="email" placeholder="Enter your email" name="email" required />
                             </div>
                         </div>
 
                         <div className="form-input" style={{ width: "100%" }}>
-                            <label htmlFor="message">Message:</label>
-                            <textarea id="message" rows="4" columns="50" placeholder="Type your message" name="message" />
+                            <label htmlFor="message">Message:*</label>
+                            <textarea id="message" rows="4" columns="50" placeholder="Type your message" name="message" required />
                         </div>
 
                         <button type="submit" className="form-btn">Submit</button>
