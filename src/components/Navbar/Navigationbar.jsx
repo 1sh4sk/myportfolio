@@ -40,7 +40,7 @@ function Navigationbar() {
 
                         {/* <Nav.Link as={NavLink} to="/Resume" style={location.pathname === '/' ? { color: '#2a2a2a' } : { color: '#ffff' }}>Resume</Nav.Link> */}
 
-                        <a className="nav-link" href={Resume} target="_blank" style={location.pathname === '/' ? { color: '#2a2a2a' } : { color: '#ffff' }}>Resume <FiExternalLink /></a>
+                        <a className="nav-link" href={Resume} target="_blank" rel="noreferrer" style={location.pathname === '/' ? { color: '#2a2a2a' } : { color: '#ffff' }}>Resume <FiExternalLink /></a>
 
                         {/* <Nav.Link as={NavLink} to="/Works" style={location.pathname === '/' ? { color: '#2a2a2a' } : { color: '#ffff' }}>Works</Nav.Link> */}
 

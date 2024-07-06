@@ -22,7 +22,7 @@ function Aboutme() {
             <section className="section boxshadow">
                 <div>
                     <h1>About Me</h1>
-                    <p>Hey Guys! My name is Ayesha Sk, A graduate in Computer Science and Enginnering stream at C. Abdul Hakeem College of Enginnering and Technology, Vellore, Tamilnadu. You may wonder why computer science and engineering? it’s because my mom told to do so... just kidding! From my childhood i saw a lot of movies where IT guys chill in the company, having a cool computer setup with 2 monitors and earn a lot so, i wanted to know about the IT field which is looking rich, so here I am. While doing enginnering I found my interest in Full-stack development and constanty improving my skills to become Full-stack developer soon.....   I guess!</p>
+                    <p>Hey Guys! My name is Ayesha Sk, A graduate in Computer Science and Enginnering stream. You may wonder why computer science and engineering? it’s because my mom told to do so... just kidding! From my childhood i saw a lot of movies where IT guys chill in the company, having a cool computer setup with 2 monitors and earn a lot so, i wanted to know about the IT field which is looking rich, so here I am. While doing enginnering I found my interest in Full-stack development and constanty improving my skills to become Full-stack developer soon.....   I guess!</p>
                 </div>
             </section>
 
@@ -57,7 +57,7 @@ function Aboutme() {
                                     <li>SQL</li>
                                     <li>MangaDB</li>
                                     <li>Python</li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
