@@ -1,0 +1,50 @@
+.landing-page{
+    width: 100vw;
+    height: 93vh;
+}
+
+.left-div{
+    height: 100%;
+    background-color: #000;
+    background-image: url("../../Images/landingpage-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 264px 70px;
+}
+
+.right-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-div-content{
+    padding: 0px 140px;
+}
+
+.right-div h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    text-align:left;
+    margin: 15px 0;
+}
+
+.right-div p{
+    font-weight:300;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.icon{
+    font-size:25px;
+    color: black;
+}
+
+.icon:hover{
+    /* color: #d0d0d0; */
+    color: #B22222;
+}

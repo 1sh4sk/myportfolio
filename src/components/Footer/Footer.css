@@ -1,0 +1,32 @@
+footer{
+    background-color: #000;
+    position:relative;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    color: #fff;
+    font-size: 14px;
+    margin: 0px;
+}
+.heart-icon{
+    color: #B22222;
+}
+
+.footer-icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer .icon{
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,24 @@
+.nav-active{
+    background-color: #000 !important;
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px !important;
+    margin: 0 20px; 
+    font-weight: 400 !important;
+}
+
+.nav-link:hover{
+    border-bottom: solid 1px #fff !important;
+}
+
+.active{
+    color: #d0d0d0 !important;
+    border-bottom: solid 1px #7e7e7e !important;
+}
