@@ -3,7 +3,7 @@ import Navigationbar from "./Navbar/Navigationbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "./Home/Home";
-import Aboutme from "./Aboutme";
+import Aboutme from "./About/Aboutme";
 import Resume from "./Resume";
 import Works from "./Works";
 import Contact from "./Contact/Contact";

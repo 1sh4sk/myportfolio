@@ -1,4 +1,17 @@
 import React from "react";
+import './About.css';
+
+import { Parallax } from 'react-parallax';
+import Rose from '../../Images/rose.jpg';
+
+import Reactjs from '../../Images/Skills/reactjs.svg';
+import Css from '../../Images/Skills/css.svg';
+import Html5 from '../../Images/Skills/html5.svg';
+import Java from '../../Images/Skills/java.svg';
+import Javascript from '../../Images/Skills/javascript.svg';
+import Mongodb from '../../Images/Skills/mongodb.svg';
+import Nodejs from '../../Images/Skills/nodejs.svg';
+
 
 function Aboutme() {
     return (
@@ -26,11 +39,37 @@ function Aboutme() {
                 </div>
             </section>
 
-            <section className="section">
+
+
+            <section>
+                <div className="skills">
+                    <Parallax className="skills-parallax" blur={4} bgImage={Rose} bgImageAlt="the red nebula" strength={800}>
+
+
+                        <div className="skills-div">
+                            <img className="skill-icon react" src={Reactjs} alt="" />
+                            <img className="skill-icon html" src={Html5} alt="" />
+                            <img className="skill-icon css" src={Css} alt="" />
+                            <img className="skill-icon javascript" src={Javascript} alt="" />
+                            <img className="skill-icon nodejs" src={Nodejs} alt="" />
+                            <img className="skill-icon java" src={Java} alt="" />
+                            <img className="skill-icon mongodb" src={Mongodb} alt="" />
+                        </div>
+                    </Parallax>
+
+                </div>
+            </section>
+
+
+
+
+
+
+
+            {/* <section className="section">
 
                 <h1>Skills</h1>
                 <div>
-                    {/* skill cards */}
                     <div className="cards">
                         <div className="card">
                             <div className="card_imgbg">
@@ -77,65 +116,10 @@ function Aboutme() {
                         </div>
                     </div>
                 </div>
-                {/* skill cards end */}
 
-            </section>
-
-            <section className="section boxshadow">
-                {/* graph bar */}
-                <div className="outer_box">
-                    <div className="box">
-
-                        <div className="graphbox">
+            </section> */}
 
 
-                            <div className="skill">
-                                <div className="name" style={{ bottom: "92%" }}>HTML5&CSS3</div>
-                                <div className="graph" style={{ height: "90%" }}>
-                                    <div className="percent">90%</div>
-                                </div>
-                            </div>
-
-                            <div className="skill">
-                                <div className="name" style={{ bottom: "72%" }}>Reactjs</div>
-                                <div className="graph" style={{ height: "70%" }}>
-                                    <div className="percent">70%</div>
-                                </div>
-                            </div>
-
-                            <div className="skill">
-                                <div className="name" style={{ bottom: "62%" }}>Python</div>
-                                <div className="graph" style={{ height: "60%" }}>
-                                    <div className="percent">60%</div>
-                                </div>
-                            </div>
-
-                            <div className="skill">
-                                <div className="name" style={{ bottom: "72%" }}>Node.js</div>
-                                <div className="graph" style={{ height: "70%" }}>
-                                    <div className="percent">70%</div>
-                                </div>
-                            </div>
-
-                            <div className="skill">
-                                <div className="name" style={{ bottom: "62%" }}>MongoDB</div>
-                                <div className="graph" style={{ height: "60%" }}>
-                                    <div className="percent">60%</div>
-                                </div>
-                            </div>
-
-                            <div className="skill">
-                                <div className="name" style={{ bottom: "101%" }}>Staring at the screen</div>
-                                <div className="graph" style={{ height: "99%" }}>
-                                    <div className="percent">99%</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                {/* graph bar ends */}
-            </section>
 
         </section>
     );
