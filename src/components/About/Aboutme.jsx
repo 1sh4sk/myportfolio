@@ -2,7 +2,7 @@ import React from "react";
 import './About.css';
 
 import { Parallax } from 'react-parallax';
-import Rose from '../../Images/rose.jpg';
+import NightStar from '../../Images/nightstar.jpg';
 
 import Reactjs from '../../Images/Skills/reactjs.svg';
 import Css from '../../Images/Skills/css.svg';
@@ -12,6 +12,11 @@ import Javascript from '../../Images/Skills/javascript.svg';
 import Mongodb from '../../Images/Skills/mongodb.svg';
 import Nodejs from '../../Images/Skills/nodejs.svg';
 
+import KeeperApp from '../../Images/Projects/keeper-app.png'
+
+
+import { FiExternalLink } from "react-icons/fi";
+import { AiFillCodeSandboxCircle } from "react-icons/ai";
 
 function Aboutme() {
     return (
@@ -42,8 +47,9 @@ function Aboutme() {
 
 
             <section>
+                <h1>Skills</h1>
                 <div className="skills">
-                    <Parallax className="skills-parallax" blur={4} bgImage={Rose} bgImageAlt="the red nebula" strength={800}>
+                    <Parallax className="skills-parallax" blur={1} bgImage={NightStar} bgImageAlt="the red nebula" strength={800}>
 
 
                         <div className="skills-div">
@@ -60,64 +66,29 @@ function Aboutme() {
                 </div>
             </section>
 
+            <section>
+                <h1>My Projects</h1>
 
+                <div className="cards">
+                    <div className="card">
+                        <div className="card_imgbg">
+                            <img className="card_img" src={KeeperApp} />
 
-
-
-
-
-            {/* <section className="section">
-
-                <h1>Skills</h1>
-                <div>
-                    <div className="cards">
-                        <div className="card">
-                            <div className="card_imgbg">
-                                <img className="card_img" src="images/front-end.png" alt="front-end" />
-                            </div>
-                            <div className="card_body">
-                                <p>Front-end</p>
-                                <ul>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>Javascript</li>
-                                    <li>Bootstrap Reactjs</li>
-                                    <li>Reactjs</li>
-                                </ul>
-                            </div>
                         </div>
-                        <div className="card">
-                            <div className="card_imgbg">
-                                <img className="card_img" src="images/back-end.png" alt="back-end" />
-                            </div>
-                            <div className="card_body">
-                                <p>Back-end</p>
-                                <ul>
-                                    <li>SQL</li>
-                                    <li>MangaDB</li>
-                                    <li>Python</li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card_imgbg">
-                                <img className="card_img" src="images/designing.png" alt="designing" />
-                            </div>
-                            <div className="card_body">
-                                <p>Designing</p>
-                                <ul>
-                                    <li>Figma</li>
-                                    <li>UI Design</li>
-                                    <li>UX Design</li>
-                                    <li>Logo Design</li>
-                                </ul>
+                        <div className="card_body">
+                            <h3>Keeper App Project (UI)</h3>
+                            <div>
+                                <a href="https://codesandbox.io/s/keeper-app-g873h9" target="_blank" rel="noreferrer">
+                                    <AiFillCodeSandboxCircle className="code-icon" />
+                                </a>
+                                <button>
+                                    <a src="https://g873h9.csb.app/" target="_blank" rel="noreferrer">Visit <FiExternalLink className="link-icon" /></a>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            </section> */}
+            </section>
 
 
 
