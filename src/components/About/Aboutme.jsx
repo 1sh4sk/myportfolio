@@ -12,11 +12,10 @@ import Javascript from '../../Images/Skills/javascript.svg';
 import Mongodb from '../../Images/Skills/mongodb.svg';
 import Nodejs from '../../Images/Skills/nodejs.svg';
 
-import KeeperApp from '../../Images/Projects/keeper-app.png'
 
 
-import { FiExternalLink } from "react-icons/fi";
-import { AiFillCodeSandboxCircle } from "react-icons/ai";
+// import { FaGithub } from "react-icons/fa";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
 function Aboutme() {
     return (
@@ -70,23 +69,7 @@ function Aboutme() {
                 <h1>My Projects</h1>
 
                 <div className="cards">
-                    <div className="card">
-                        <div className="card_imgbg">
-                            <img className="card_img" src={KeeperApp} />
-
-                        </div>
-                        <div className="card_body">
-                            <h3>Keeper App Project (UI)</h3>
-                            <div>
-                                <a href="https://codesandbox.io/s/keeper-app-g873h9" target="_blank" rel="noreferrer">
-                                    <AiFillCodeSandboxCircle className="code-icon" />
-                                </a>
-                                <button>
-                                    <a src="https://g873h9.csb.app/" target="_blank" rel="noreferrer">Visit <FiExternalLink className="link-icon" /></a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    <ProjectCard />
                 </div>
             </section>
 
