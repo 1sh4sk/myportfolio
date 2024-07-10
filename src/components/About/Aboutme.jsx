@@ -14,7 +14,6 @@ import Nodejs from '../../Images/Skills/nodejs.svg';
 
 
 
-// import { FaGithub } from "react-icons/fa";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 function Aboutme() {
@@ -65,7 +64,7 @@ function Aboutme() {
                 </div>
             </section>
 
-            <section>
+            <section style={{ marginTop: "30px" }}>
                 <h1>My Projects</h1>
 
                 <div className="cards">

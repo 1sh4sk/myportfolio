@@ -80,6 +80,12 @@
     left: 1200px;
 }
 
-
-
-
+.cards{
+    width: 80%; 
+    display:flex;
+    justify-content: space-between !important;
+    text-align: center;
+    margin:50px auto 100px;
+    flex-wrap:wrap;
+    row-gap: 50px;
+}
