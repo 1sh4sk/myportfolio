@@ -1,10 +1,9 @@
 .landing-page{
     width: 100vw;
-    height: 93vh;
 }
 
 .left-div{
-    height: 100%;
+    height: 93vh;
     background-color: #000;
     background-image: url("../../Images/landingpage-image.png");
     background-size: contain;
@@ -13,6 +12,7 @@
 }
 
 .right-div{
+    background-color: #fff;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -48,3 +48,130 @@
     /* color: #d0d0d0; */
     color: #B22222;
 }
+
+@media (max-width: 1280px){
+.left-div{
+    background-position: 150px 70px;
+}
+
+
+.right-div-content{
+    padding: 0px 80px;
+}
+
+.right-div h1{
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.right-div p{
+    font-size: 18px;
+}
+
+.icons{
+    margin: 60px 50px 0px;
+}
+
+.icon{
+    font-size:22px;
+}
+
+}
+
+@media (max-width: 1080px){
+.left-div{
+    background-position: 60px 70px;
+}
+
+
+.right-div-content{
+    padding: 0px 60px;
+}
+
+.right-div h1{
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.right-div p{
+    font-size: 16px;
+}
+}
+
+@media (max-width: 800px){
+.left-div{
+    background-position: 40px 150px;
+}
+
+
+.right-div-content{
+    padding: 0px 40px;
+}
+
+.right-div h1{
+    font-size: 40px;
+    margin: 0px 0 !important;
+}
+
+.right-div p{
+    font-size: 14px;
+}
+
+.icons{
+    margin: 40px 50px 0px;
+}
+}
+
+@media (max-width: 500px){
+.landing-page{
+    position: relative
+}
+
+.left-div{
+    /* height: 100%; */
+    height: 95vh;
+    background-color: #000;
+    background-image: url("../../Images/landingpage-image.png");
+    background-position: 160px 250px;
+    background-size: 320px 450px;
+}
+
+.right-div{
+    background-color: transparent;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+.right-div-content{
+    padding: 0px 20px;
+}
+
+.right-div h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.right-div p{
+    font-size: 12px;
+    font-weight:300;
+    margin-bottom: 0px;
+}
+
+.icons{
+    width: 120px;
+    display: flex;
+    margin-top: 0px;
+}
+
+.icon{
+    font-size:15px;
+    color: #fff;
+}
+
+}
+

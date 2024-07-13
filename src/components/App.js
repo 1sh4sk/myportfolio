@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navigationbar from "./Navbar/Navigationbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -11,10 +11,13 @@ import Footer from "./Footer/Footer";
 
 
 function App() {
+  const [toggle, setToggle] = useState(false);
+
+
   return (
     <div className="App">
       <Router>
-        <Navigationbar />
+        <Navigationbar toggle={toggle} setToggle={setToggle} />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/Aboutme" element={<Aboutme />}></Route>

@@ -30,3 +30,25 @@ footer .icon{
     color: white;
     font-size: 18px;
 }
+
+@media(max-width: 500px){
+    footer{
+    height: 7vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    font-size: 8px;
+}
+
+
+.footer-icons{
+    width: 15%;
+
+}
+
+footer .icon{
+    font-size: 12px;
+}
+}

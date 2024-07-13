@@ -3,14 +3,16 @@ import Typewriter from "typewriter-effect";
 import './Home.css';
 
 function Home() {
+
+
     return (
         <section>
 
             <div className="row landing-page">
-                <div className="col-lg-6 col-md-6 left-div">
+                <div className="col-lg-6 col-md-6 left-div ">
 
                 </div>
-                <div className="c0l-lg-6 col-md-6 right-div">
+                <div className={`c0l-lg-6 col-md-6 right-div `}>
                     <div className="right-div-content">
                         <p>Hey guys!</p>
                         <h1 className="home_heading">

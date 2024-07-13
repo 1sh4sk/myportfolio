@@ -45,7 +45,7 @@ function Contact() {
 
 
             <div className="row landing-page">
-                <div className="c0l-lg-6 col-md-6 right-div">
+                <div className="c0l-lg-6 col-md-6 right-div slideInRight">
                     <div className="right-div-content">
                         <h1>Contact</h1>
                         <p>
@@ -66,7 +66,7 @@ function Contact() {
                     </div>
                 </div>
 
-                <div className="col-lg-6 col-md-6 left-div img-flip"></div>
+                <div className="col-lg-6 col-md-6 left-div img-flip slideInLeft"></div>
 
             </div>
 
