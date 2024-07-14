@@ -111,3 +111,143 @@
     border: 1px solid #000;
 }
 
+@media (max-width: 1024px){
+  .contact-icons{
+    margin: 30px auto;
+}
+
+.contact-icons div{
+    gap:  10px;
+}
+
+.contact-icons div a{
+    margin-bottom: 8px;
+}
+
+.contact-icons .icon{
+    font-size: 18px;
+}
+
+.contact-icons p{
+    font-size: 16px;
+    margin: 0 7px;
+    
+}
+
+.form-div{
+    width: 100%;
+    margin: 0px auto 50px;
+    
+}
+}
+
+@media (max-width: 500px){
+.contact-icons{
+    width: 40%;
+    margin: 15px 0px;
+}
+
+.contact-icons div{
+    display: flex;
+    gap:  3px;
+}
+
+.contact-icons div a{
+    width: 50%;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+
+
+
+.contact-icons .icon{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+
+
+.contact-icons p{
+    font-size: 12px;
+    color: #fff;
+    margin: 0 0 0 3px ;
+}
+
+.contact-icons a:active{
+    color : #D55555 !important;
+}
+
+
+.form-div{
+    width: 80%;
+    margin: 0px auto 50px;
+    
+}
+
+.form-input-row{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.form-input label{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.form-input input, .form-input textarea{
+    font-size: 12px;
+    padding: 5px 5px;
+    border: 1px solid #000;
+}
+
+.form-input input::placeholder, textarea::placeholder{
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.note{
+    color: red;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 0.8rem;
+}
+
+.form-btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 35px;
+    font-size: 12px;
+}
+
+}
+
+@media (max-width: 412px){
+.contact-icons{
+    width: 70%;
+    margin: 15px 0px;
+}
+
+.contact-icons div a{
+    width: 50%;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+
+
+.contact-icons p{
+    margin: 0 0 0 5px ;
+}
+
+}

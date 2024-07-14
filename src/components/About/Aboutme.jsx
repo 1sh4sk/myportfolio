@@ -21,8 +21,8 @@ function Aboutme() {
         <section>
 
             <section>
-                <div className="row landing-page">
-                    <div className="c0l-lg-6 col-md-6 right-div slideInRight">
+                <div className="landing-page">
+                    <div className="right-div slideInRight">
                         <div className="right-div-content ">
                             <h1>About</h1>
                             <p>
@@ -31,7 +31,7 @@ function Aboutme() {
                         </div>
                     </div>
 
-                    <div className="col-lg-6 col-md-6 left-div img-flip slideInLeft"></div>
+                    <div className="left-div img-flip slideInLeft"></div>
                 </div>
             </section>
 

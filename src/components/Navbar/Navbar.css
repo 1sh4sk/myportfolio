@@ -6,6 +6,11 @@
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
 }
+.navbar{
+    width: 100vw !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
 
 .navbar-brand{
     font-family: 'Great Vibes', cursive;

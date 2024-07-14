@@ -1,14 +1,10 @@
-
-
 .card{
    padding:15px 15px;
    box-shadow: 3px 3px 5px 0px #696969;
-   /* border: 3px solid #000 !important; */
    background-color: #ffffff !important;
 }
 
 .card_imgbg{
-    /* background-color: #3D3D3D; */
     width: 550px;
     height:250px;
     border-radius: 10px;
@@ -68,4 +64,87 @@
 
 .code-icon:hover{
     color: #d55555;
+}
+
+@media (max-width: 1280px){
+
+
+.card_imgbg{
+    width: 450px;
+    height:200px;
+    border-radius: 10px;
+}
+
+
+.card_body h3{
+    font-size: 24px;
+    font-weight: 800 !important;
+    margin-bottom: 15px;
+}
+
+.code-icon{
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.card_body button{
+    font-size: 12px;
+    padding: 10px 26px;
+}
+
+.link-icon{
+    font-size: 18px;
+}
+}
+
+
+@media (max-width: 1024px){
+.card_imgbg{
+    width: 360px;
+    height:150px;
+    border-radius: 10px;
+}
+
+}
+
+@media (max-width: 800px){
+.card_imgbg{
+    width: 310px;
+    height:150px;
+    border-radius: 10px;
+}
+
+.card_body h3{
+    font-size: 20px;
+    font-weight: 800 !important;
+    margin-bottom: 15px;
+}
+
+}
+
+@media (max-width: 500px){
+.card_imgbg{
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+
+.card_body h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.code-icon{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.card_body button{
+    font-size: 10px;
+}
+
+.link-icon{
+    font-size: 14px;
+}
 }

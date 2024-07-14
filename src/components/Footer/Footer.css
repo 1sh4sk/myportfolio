@@ -31,6 +31,26 @@ footer .icon{
     font-size: 18px;
 }
 
+@media(max-width: 800px){
+    footer{
+    height: 8vh;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+
+.footer-icons{
+    width: 15%;
+
+}
+
+footer .icon{
+    font-size: 14px;
+}
+}
+
 @media(max-width: 500px){
     footer{
     height: 7vh;

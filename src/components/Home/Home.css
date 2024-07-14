@@ -1,8 +1,10 @@
 .landing-page{
     width: 100vw;
+    display: flex;
 }
 
 .left-div{
+    width: 50%;
     height: 93vh;
     background-color: #000;
     background-image: url("../../Images/landingpage-image.png");
@@ -12,6 +14,7 @@
 }
 
 .right-div{
+    width: 50%;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -78,7 +81,7 @@
 
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1024px){
 .left-div{
     background-position: 60px 70px;
 }
@@ -100,7 +103,7 @@
 
 @media (max-width: 800px){
 .left-div{
-    background-position: 40px 150px;
+    background-position: 40px 190px;
 }
 
 
@@ -128,15 +131,16 @@
 }
 
 .left-div{
-    /* height: 100%; */
-    height: 95vh;
+    width: 100%;
+    height: 93vh;
     background-color: #000;
     background-image: url("../../Images/landingpage-image.png");
-    background-position: 160px 250px;
-    background-size: 320px 450px;
+    background-position: 180px 250px;
+    background-size: 320px 460px;
 }
 
 .right-div{
+    width: 100%;
     background-color: transparent;
     display: flex;
     color: #fff;
@@ -173,5 +177,51 @@
     color: #fff;
 }
 
+}
+
+@media (max-width: 412px){
+    
+
+.left-div{
+    background-position: 100px 410px;
+    background-size: 320px 450px;
+}
+
+.right-div{
+    background-color: transparent;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    position: absolute;
+    top: 210px;
+    left: 50px;
+}
+
+.right-div-content{
+    padding: 0px 70px 0px 20px;
+}
+
+.right-div h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.right-div p{
+    font-size: 12px;
+    font-weight:300;
+    margin-bottom: 0px;
+}
+
+.icons{
+    width: 120px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.icon{
+    font-size:15px;
+    color: #fff;
+}
 }
 

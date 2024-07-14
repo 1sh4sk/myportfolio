@@ -1,17 +1,7 @@
-.img-flip{
-    transform:scaleX(-1);
-}
 
-/* .aboutme{
-    background: #fff;
-} */
-
-.boxshadow{
-    box-shadow: inset 0 5px 5px -5px #c6c6c6;
-    padding:50px 130px;
-}
 
 .skills{
+    width: 100vw;
     height: 85vh;
     display: flex;
     align-items: center;
@@ -19,16 +9,14 @@
 }
 
 .skills-parallax{
-    width: 99%;
-    /* border: 10px solid yellow; */
+    width: 98%;
+    height: 100%;
     border-radius: 10px;
 }
 
-
 .skills-div{
-    width: 80%;
-    height:  80vh;
-    /* background: #fff; */
+    width: 100%;
+    height:  100%;
 }
 
 .skill-icon{
@@ -97,11 +85,11 @@
 @keyframes slideInLeft {
     from {
         transform: translateX(-100%);
-        /* opacity: 0; */
+        opacity: 0;
     }
     to {
         transform: translateX(0);
-        /* opacity: 1; */
+        opacity: 1;
     }
 }
 
@@ -120,4 +108,263 @@
         transform: translateX(0);
         opacity: 1;
     }
+}
+@media (max-width: 1280px){
+
+.skill-icon{
+    width: 90px;
+    height: 90px;
+}
+
+.react{
+    top: 80px;
+    left: 100px;
+}
+
+.html{
+    top: 360px;
+    left: 200px;
+}
+
+.css{
+    top: 200px;
+    left: 430px;
+}
+
+.nodejs{
+    top: 30px;
+    left: 570px;
+}
+
+.javascript{
+    top: 400px;
+    left: 600px;
+}
+
+.mongodb{
+    height: 150px;
+    width: 150px;
+    top: 200px;
+    left: 750px;
+}
+
+.java{
+    top: 40px;
+    left: 1000px;
+}
+
+.cards{
+    width: 80%; 
+    display:flex;
+    justify-content: space-between !important;
+    text-align: center;
+    margin:50px auto 100px;
+    flex-wrap:wrap;
+    row-gap: 50px;
+}
+}
+
+@media (max-width: 1024px){
+
+.skills{
+    height: 70vh;
+}
+
+.skill-icon{
+    width: 70px;
+    height: 70px;
+}
+
+.react{
+    top: 80px;
+    left: 100px;
+}
+
+.html{
+    top: 330px;
+    left: 190px;
+}
+
+.css{
+    top: 180px;
+    left: 360px;
+}
+
+.nodejs{
+    top: 30px;
+    left: 580px;
+}
+
+.javascript{
+    top: 350px;
+    left: 550px;
+}
+
+.mongodb{
+    height: 150px;
+    width: 150px;
+    top: 150px;
+    left: 550px;
+}
+
+.java{
+    top: 40px;
+    left: 800px;
+}
+
+.cards{
+    width: 80%; 
+    display:flex;
+    justify-content: space-between !important;
+    text-align: center;
+    margin:50px auto 100px;
+    flex-wrap:wrap;
+    row-gap: 50px;
+}
+
+}
+
+@media (max-width: 800px){
+   .skills{
+    height: 70vh;
+}
+
+.skills-parallax{
+    width: 96%;
+    height: 100%;
+}
+
+
+
+.skill-icon{
+    width: 70px;
+    height: 70px;
+}
+
+.react{
+    top: 80px;
+    left: 100px;
+}
+
+.html{
+    top: 330px;
+    left: 190px;
+}
+
+.css{
+    top: 180px;
+    left: 360px;
+}
+
+.nodejs{
+    top: 30px;
+    left: 580px;
+}
+
+.javascript{
+    top: 350px;
+    left: 550px;
+}
+
+.mongodb{
+    height: 150px;
+    width: 150px;
+    top: 150px;
+    left: 550px;
+}
+
+.java{
+    top: 40px;
+    left: 800px;
+}
+
+.cards{
+    width: 90%; 
+    display:flex;
+    justify-content: space-between !important;
+    text-align: center;
+    margin:50px auto 100px;
+    flex-wrap:wrap;
+    row-gap: 50px;
+}
+
+} 
+
+@media (max-width: 500px){
+.skills{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-parallax{
+    width:97%;
+    border-radius: 8px;
+}
+
+
+.skills-div{
+    width: 100%;
+    height:  100%;
+}
+
+.skill-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.react{
+    top: 50px;
+    left: 30px;
+}
+
+.html{
+    top: 400px;
+    left: 50px;
+}
+
+.css{
+    top: 250px;
+    left: 100px;
+}
+
+.nodejs{
+    top: 130px;
+    left: 150px;
+}
+
+.javascript{
+    top: 350px;
+    left: 250px;
+}
+
+.mongodb{
+    height: 100px;
+    width: 100px;
+    top: 180px;
+    left: 300px;
+}
+
+.java{
+    top: 40px;
+    left: 300px;
+}
+
+.cards{
+    width: 90%; 
+    text-align: center;
+    margin:30px auto 50px;
+    row-gap: 20px;
+}
+
+.slideInLeft {
+    animation: none;
+}
+
+.slideInRight {
+    animation: none;
+}
+
 }
