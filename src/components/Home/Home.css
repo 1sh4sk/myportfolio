@@ -1,6 +1,7 @@
 .landing-page{
     width: 100vw;
     display: flex;
+    overflow: hidden;
 }
 
 .left-div{
@@ -135,8 +136,8 @@
     height: 93vh;
     background-color: #000;
     background-image: url("../../Images/landingpage-image.png");
-    background-position: 180px 250px;
-    background-size: 320px 460px;
+    background-position: 40px 350px;
+    background-size: 400px 520px;
 }
 
 .right-div{
@@ -151,7 +152,7 @@
 }
 
 .right-div-content{
-    padding: 0px 20px;
+    padding: 0px 80px 0px 20px;
 }
 
 .right-div h1{
@@ -164,6 +165,7 @@
     font-size: 12px;
     font-weight:300;
     margin-bottom: 0px;
+    line-height: 1.2rem;
 }
 
 .icons{
@@ -179,8 +181,9 @@
 
 }
 
+
+
 @media (max-width: 412px){
-    
 
 .left-div{
     background-position: 100px 410px;
