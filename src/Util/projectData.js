@@ -19,7 +19,7 @@ const projectData = [
         projectLink: "https://brainwave-1sh4sk.netlify.app/"
     },
     {
-        id: 5,
+        id: 6,
         projectImg: Nike,
         name: "Nike App",
         codeLink: "https://github.com/1sh4sk/nike-home",
