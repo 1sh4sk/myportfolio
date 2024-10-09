@@ -3,6 +3,7 @@ import Jobify from '../Images/Projects/jobify.png'
 import ECommerce from '../Images/Projects/e-commerce.png'
 import ToDoList from '../Images/Projects/to-do-list.png'
 import Brainwave from '../Images/Projects/brainwave.png'
+import AppleIphone from '../Images/Projects/brainwave.png'
 import Nike from '../Images/Projects/nike-home.png'
 import { AiFillCodeSandboxCircle } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
@@ -10,6 +11,14 @@ import { FaGithub } from "react-icons/fa";
 
 
 const projectData = [
+    {
+        id: 6,
+        projectImg: AppleIphone,
+        name: "AppleIphone",
+        codeLink: "https://github.com/1sh4sk/apple-iPhone",
+        codeIcon: <FaGithub className="code-icon" />,
+        projectLink: "https://bit.ly/3XVNDbj"
+    },
     {
         id: 5,
         projectImg: Brainwave,
