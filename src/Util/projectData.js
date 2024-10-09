@@ -11,6 +11,22 @@ import { FaGithub } from "react-icons/fa";
 
 const projectData = [
     {
+        id: 5,
+        projectImg: Brainwave,
+        name: "Brainwave",
+        codeLink: "https://github.com/1sh4sk/brainwave",
+        codeIcon: <FaGithub className="code-icon" />,
+        projectLink: "https://brainwave-1sh4sk.netlify.app/"
+    },
+    {
+        id: 5,
+        projectImg: Nike,
+        name: "Nike App",
+        codeLink: "https://github.com/1sh4sk/nike-home",
+        codeIcon: <FaGithub className="code-icon" />,
+        projectLink: "https://nike-home-1sh4sk.netlify.app/"
+    },
+    {
         id: 1,
         projectImg: Jobify,
         name: "Jobify Project (MERN)",
@@ -42,22 +58,7 @@ const projectData = [
         codeIcon: <AiFillCodeSandboxCircle className="code-icon" />,
         projectLink: "https://whvj2n.csb.app/"
     },
-    {
-        id: 5,
-        projectImg: Brainwave,
-        name: "Brainwave",
-        codeLink: "https://github.com/1sh4sk/brainwave",
-        codeIcon: <FaGithub className="code-icon" />,
-        projectLink: "https://brainwave-1sh4sk.netlify.app/"
-    },
-    {
-        id: 5,
-        projectImg: Nike,
-        name: "Nike App",
-        codeLink: "https://github.com/1sh4sk/nike-home",
-        codeIcon: <FaGithub className="code-icon" />,
-        projectLink: "https://nike-home-1sh4sk.netlify.app/"
-    },
+
 ];
 
 export default projectData;
