@@ -3,7 +3,7 @@ import Jobify from '../Images/Projects/jobify.png'
 import ECommerce from '../Images/Projects/e-commerce.png'
 import ToDoList from '../Images/Projects/to-do-list.png'
 import Brainwave from '../Images/Projects/brainwave.png'
-import AppleIphone from '../Images/Projects/brainwave.png'
+import AppleIphone from '../Images/Projects/apple.png'
 import Nike from '../Images/Projects/nike-home.png'
 import { AiFillCodeSandboxCircle } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
