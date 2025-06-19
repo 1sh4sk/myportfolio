@@ -5,12 +5,21 @@ import ToDoList from '../Images/Projects/to-do-list.png'
 import Brainwave from '../Images/Projects/brainwave.png'
 import AppleIphone from '../Images/Projects/apple.png'
 import Nike from '../Images/Projects/nike-home.png'
+import TripMate from '../Images/Projects/tripmate.webp';
 import { AiFillCodeSandboxCircle } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 
 
 
 const projectData = [
+    {
+        id: 7,
+        projectImg: TripMate,
+        name: "TripMate - Cab booking app (MERN)",
+        codeLink: "https://github.com/1sh4sk/CabBookingService",
+        codeIcon: <FaGithub className="code-icon" />,
+        projectLink: "https://tripmate-project.netlify.app/"
+    },
     {
         id: 6,
         projectImg: AppleIphone,

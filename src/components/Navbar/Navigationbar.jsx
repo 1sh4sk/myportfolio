@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 //assets
-import Resume from '../../Assets/Ayesha_s_k_resume.pdf';
+import Resume from '../../Assets/resume/AyeshaSkResume1.pdf';
 import { FiExternalLink } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 
