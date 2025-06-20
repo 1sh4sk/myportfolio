@@ -8,6 +8,7 @@ import Resume from "./Resume";
 import Works from "./Works";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
+import HireMeButton from "./components/HireMeButton/HireMeButton";
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         </Routes>
       </Router>
       <Footer />
+
+      <HireMeButton />
     </div>
   );
 }

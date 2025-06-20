@@ -27,7 +27,7 @@ function Home() {
                                 }}
                             />
                         </h1>
-                        <p>an aspiring MERN developer</p>
+                        <p>MERN Stack Developer and Freelancer with 1 Year of Experience</p>
 
                         <div class="icons">
                             <a href="https://x.com/1sh4sk" target="_blank" rel="noreferrer"><i class="fa-brands fa-x-twitter icon"></i></a>

@@ -7,7 +7,7 @@ const ProjectCard = () => {
     return (
         <>{projectData.map((data, index) => {
             return (
-                <div className="card">
+                <div className="card" key={data.id}>
                     <div className="card_imgbg">
                         <img className="card_img" src={data.projectImg} alt="" />
 

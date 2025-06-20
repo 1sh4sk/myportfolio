@@ -13,7 +13,7 @@ import { FaGithub } from "react-icons/fa";
 
 const projectData = [
     {
-        id: 7,
+        id: 8,
         projectImg: TripMate,
         name: "TripMate - Cab booking app (MERN)",
         codeLink: "https://github.com/1sh4sk/CabBookingService",
@@ -21,7 +21,7 @@ const projectData = [
         projectLink: "https://tripmate-project.netlify.app/"
     },
     {
-        id: 6,
+        id: 7,
         projectImg: AppleIphone,
         name: "AppleIphone",
         codeLink: "https://github.com/1sh4sk/apple-iPhone",
